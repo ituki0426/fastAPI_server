@@ -5,6 +5,7 @@ from keras.models import load_model
 
 mean = 117.5364705882353
 std = 52.3410265358211
+
 model = load_model('../data/trained_data')
 model.summary()
 
